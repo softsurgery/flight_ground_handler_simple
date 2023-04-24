@@ -8,24 +8,21 @@ import java.util.Optional;
 import com.mycompany.Exceptions.VehiculeException;
 
 import io.github.cdimascio.dotenv.Dotenv;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
+@Data
+@AllArgsConstructor
+@EqualsAndHashCode
 public class Warehouse{
     protected static Dotenv dotenv = Dotenv.load();
-    private Avion avion = null;
+    private int id;
+    private Avion avion = new Avion();
     private Vehicule[] vehicules = new Vehicule[
         Integer.parseInt(dotenv.get("MAX_VEHICULE"))
     ];
     private int vehicleCount = 0;
-
-    public Warehouse(Avion avion) {
-        this.avion = avion;
-    }
-    public Avion getAvion() {
-        return avion;
-    }
-    public void setAvion(Avion avion) {
-        this.avion = avion;
-    }
 
     public Vehicule search(Vehicule vehicule){
         Optional<Vehicule> result = Arrays.stream(vehicules)

@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-
 import com.mycompany.Exceptions.WarehouseException;
-
 import io.github.cdimascio.dotenv.Dotenv;
+import lombok.Getter;
 
-public class Aeroport {
+
+@Getter
+public class Aeroport{
     protected static Dotenv dotenv = Dotenv.load();
     private Warehouse[] warehouses = new Warehouse[
         Integer.parseInt(dotenv.get("MAX_WAREHOUSE"))
@@ -37,6 +38,4 @@ public class Aeroport {
         }
         return w;
     }
-
-
 }
