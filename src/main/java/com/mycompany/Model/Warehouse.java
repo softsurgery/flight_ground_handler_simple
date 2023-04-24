@@ -1,13 +1,15 @@
-package com.mycompany;
+package com.mycompany.Model;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+import com.mycompany.Exceptions.VehiculeException;
+
 import io.github.cdimascio.dotenv.Dotenv;
 
-public class Place{
+public class Warehouse{
     protected static Dotenv dotenv = Dotenv.load();
     private Avion avion = null;
     private Vehicule[] vehicules = new Vehicule[
@@ -15,7 +17,7 @@ public class Place{
     ];
     private int vehicleCount = 0;
 
-    public Place(Avion avion) {
+    public Warehouse(Avion avion) {
         this.avion = avion;
     }
     public Avion getAvion() {
@@ -46,7 +48,4 @@ public class Place{
         }
         return v;
     }
-
-
-    
 }

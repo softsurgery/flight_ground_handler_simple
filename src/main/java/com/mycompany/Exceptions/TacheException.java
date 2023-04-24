@@ -1,4 +1,4 @@
-package com.mycompany;
+package com.mycompany.Exceptions;
 
 import io.github.cdimascio.dotenv.Dotenv;
 

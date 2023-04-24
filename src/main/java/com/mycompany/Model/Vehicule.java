@@ -1,4 +1,7 @@
-package com.mycompany;
+package com.mycompany.Model;
+
+import com.mycompany.Exceptions.TacheException;
+import com.mycompany.Model.Types.TacheType;
 
 public class Vehicule {
     private int id;

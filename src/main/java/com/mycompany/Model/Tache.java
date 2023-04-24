@@ -1,4 +1,8 @@
-package com.mycompany;
+package com.mycompany.Model;
+
+import com.mycompany.Exceptions.TacheException;
+import com.mycompany.Model.Types.TacheType;
+
 public class Tache {
     private int id;
     private int duree;
