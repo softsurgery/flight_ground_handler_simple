@@ -1,0 +1,112 @@
+{
+  "aeroport": {
+    "warehouses": [
+      {
+        "id": 0,
+        "avion": {
+          "id": 0,
+          "hde": 0,
+          "hfe": 0,
+          "taches": {
+            "0": { "id": 0, "duree": 0, "hd": 0 },
+            "1": { "id": 0, "duree": 0, "hd": 0 },
+            "2": { "id": 0, "duree": 0, "hd": 0 },
+            "3": { "id": 0, "duree": 0, "hd": 0 }
+          }
+        },
+        "vehicules": [
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 }
+        ],
+        "vehicleCount": 0
+      },
+      {
+        "id": 0,
+        "avion": {
+          "id": 0,
+          "hde": 0,
+          "hfe": 0,
+          "taches": {
+            "0": { "id": 0, "duree": 0, "hd": 0 },
+            "1": { "id": 0, "duree": 0, "hd": 0 },
+            "2": { "id": 0, "duree": 0, "hd": 0 },
+            "3": { "id": 0, "duree": 0, "hd": 0 }
+          }
+        },
+        "vehicules": [
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 }
+        ],
+        "vehicleCount": 0
+      },
+      {
+        "id": 0,
+        "avion": {
+          "id": 0,
+          "hde": 0,
+          "hfe": 0,
+          "taches": {
+            "0": { "id": 0, "duree": 0, "hd": 0 },
+            "1": { "id": 0, "duree": 0, "hd": 0 },
+            "2": { "id": 0, "duree": 0, "hd": 0 },
+            "3": { "id": 0, "duree": 0, "hd": 0 }
+          }
+        },
+        "vehicules": [
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 }
+        ],
+        "vehicleCount": 0
+      },
+      {
+        "id": 0,
+        "avion": {
+          "id": 0,
+          "hde": 0,
+          "hfe": 0,
+          "taches": {
+            "0": { "id": 0, "duree": 0, "hd": 0 },
+            "1": { "id": 0, "duree": 0, "hd": 0 },
+            "2": { "id": 0, "duree": 0, "hd": 0 },
+            "3": { "id": 0, "duree": 0, "hd": 0 }
+          }
+        },
+        "vehicules": [
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 }
+        ],
+        "vehicleCount": 0
+      },
+      {
+        "id": 0,
+        "avion": {
+          "id": 0,
+          "hde": 0,
+          "hfe": 0,
+          "taches": {
+            "0": { "id": 0, "duree": 0, "hd": 0 },
+            "1": { "id": 0, "duree": 0, "hd": 0 },
+            "2": { "id": 0, "duree": 0, "hd": 0 },
+            "3": { "id": 0, "duree": 0, "hd": 0 }
+          }
+        },
+        "vehicules": [
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 },
+          { "id": 0, "tachesCount": 0 }
+        ],
+        "vehicleCount": 0
+      }
+    ],
+    "warehouseCount": 0
+  }
+}

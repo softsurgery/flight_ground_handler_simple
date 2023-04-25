@@ -12,10 +12,13 @@ import lombok.Getter;
 @Getter
 public class Aeroport{
     protected static Dotenv dotenv = Dotenv.load();
-    private Warehouse[] warehouses = new Warehouse[
-        Integer.parseInt(dotenv.get("MAX_WAREHOUSE"))
-    ];
+    private final static int max = Integer.parseInt(dotenv.get("MAX_WAREHOUSE"));
+    private Warehouse[] warehouses = new Warehouse[max];
     private int warehouseCount = 0;
+
+    public Aeroport(){
+        for (int i = 0; i < max; i++) this.warehouses[i] = new Warehouse();
+    }
 
     public Warehouse search(Avion a){
         Optional<Warehouse> result = Arrays.stream(warehouses)
