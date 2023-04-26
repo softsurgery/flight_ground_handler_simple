@@ -14,8 +14,8 @@
         }
       },
       "vehicules": [
-        { "id": 1, "tachesCount": 0 },
-        { "id": 2, "tachesCount": 0 }
+        { "id": 1, "tachesCount": 0, "tacheType": "DEBARQUEMENT" },
+        { "id": 2, "tachesCount": 0, "tacheType": "CATERING" }
       ],
       "vehicleCount": 2
     },
@@ -33,10 +33,10 @@
         }
       },
       "vehicules": [
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 }
+        { "id": 0, "tachesCount": 0, "tacheType": "REFUELING" },
+        { "id": 0, "tachesCount": 0, "tacheType": "EMBARQUEMENT" },
+        { "id": 0, "tachesCount": 0, "tacheType": "EMBARQUEMENT" },
+        { "id": 0, "tachesCount": 0, "tacheType": "CATERING" }
       ],
       "vehicleCount": 0
     }

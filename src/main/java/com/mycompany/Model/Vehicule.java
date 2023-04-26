@@ -15,7 +15,7 @@ import lombok.ToString;
 @ToString
 public class Vehicule {
     private int id;
-    private TacheType tacheType;
+    private TacheType tacheType = TacheType.UNDEFINED;
     private int tachesCount;
 
     public void setTacheType(int index) throws TacheException{
