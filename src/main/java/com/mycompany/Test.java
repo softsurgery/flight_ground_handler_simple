@@ -2,7 +2,6 @@ package com.mycompany;
 
 import java.io.FileWriter;
 import java.io.IOException;
-
 import com.google.gson.Gson;
 import com.mycompany.Model.Optimizer;
 

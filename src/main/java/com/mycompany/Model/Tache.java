@@ -25,7 +25,4 @@ public class Tache {
         else if (index == 3) this.tacheType = TacheType.EMBARQUEMENT;
         else throw new TacheException();
     }
-    
-
-    
 }
