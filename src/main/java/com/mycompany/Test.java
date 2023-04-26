@@ -3,11 +3,11 @@ package com.mycompany;
 import java.io.FileWriter;
 import java.io.IOException;
 import com.google.gson.Gson;
-import com.mycompany.Model.Optimizer;
+import com.mycompany.Model.Aeroport;
 
 public class Test {
     public static void main(String[] args) {
-        Optimizer o = new Optimizer();
+        Aeroport o = new Aeroport();
         Gson gson = new Gson();
         String json = gson.toJson(o);
         try {

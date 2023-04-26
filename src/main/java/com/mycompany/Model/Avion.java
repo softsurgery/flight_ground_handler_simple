@@ -4,9 +4,11 @@ import java.util.HashMap;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 @Data
 @EqualsAndHashCode
+@ToString
 public class Avion{
     private int id;
     private int hde;

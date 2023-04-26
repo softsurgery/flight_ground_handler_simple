@@ -10,9 +10,11 @@ import com.mycompany.Exceptions.VehiculeException;
 import io.github.cdimascio.dotenv.Dotenv;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 @Data
 @EqualsAndHashCode
+@ToString
 public class Warehouse{
     protected static Dotenv dotenv = Dotenv.load();
     private final static int max = Integer.parseInt(dotenv.get("MAX_VEHICULE"));
