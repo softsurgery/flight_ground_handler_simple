@@ -11,7 +11,7 @@ public class Test {
         Gson gson = new Gson();
         String json = gson.toJson(o);
         try {
-            FileWriter writer = new FileWriter("./data.json");
+            FileWriter writer = new FileWriter(args[0]);
             writer.write(json);
             writer.close();
             System.out.println("Successfully wrote to the file.");

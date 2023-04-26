@@ -5,5 +5,6 @@ public enum TacheType {
     CATERING,
     REFUELING,
     DEBARQUEMENT,
-    EMBARQUEMENT
+    EMBARQUEMENT,
+    UNDEFINED
 }

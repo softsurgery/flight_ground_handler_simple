@@ -3,98 +3,33 @@
     {
       "id": 1,
       "avion": {
-        "id": 0,
-        "hde": 0,
-        "hfe": 0,
+        "id": 1,
+        "hde": 4,
+        "hfe": 23,
         "taches": {
-          "0": { "id": 0, "duree": 0, "hd": 0 },
-          "1": { "id": 0, "duree": 0, "hd": 0 },
-          "2": { "id": 0, "duree": 0, "hd": 0 },
-          "3": { "id": 0, "duree": 0, "hd": 0 }
+          "0": { "id": 1, "duree": 5, "hd": 4, "tacheType": "DEBARQUEMENT" },
+          "1": { "id": 2, "duree": 4, "hd": 9, "tacheType": "CATERING" },
+          "2": { "id": 3, "duree": 4, "hd": 13, "tacheType": "REFUELING" },
+          "3": { "id": 4, "duree": 2, "hd": 15, "tacheType": "EMBARQUEMENT" }
         }
       },
       "vehicules": [
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 }
+        { "id": 1, "tachesCount": 0 },
+        { "id": 2, "tachesCount": 0 }
       ],
-      "vehicleCount": 0
+      "vehicleCount": 2
     },
     {
-      "id": 0,
+      "id": 2,
       "avion": {
-        "id": 0,
-        "hde": 0,
-        "hfe": 0,
+        "id": 2,
+        "hde": 4,
+        "hfe": 25,
         "taches": {
-          "0": { "id": 0, "duree": 0, "hd": 0 },
-          "1": { "id": 0, "duree": 0, "hd": 0 },
-          "2": { "id": 0, "duree": 0, "hd": 0 },
-          "3": { "id": 0, "duree": 0, "hd": 0 }
-        }
-      },
-      "vehicules": [
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 }
-      ],
-      "vehicleCount": 0
-    },
-    {
-      "id": 0,
-      "avion": {
-        "id": 0,
-        "hde": 0,
-        "hfe": 0,
-        "taches": {
-          "0": { "id": 0, "duree": 0, "hd": 0 },
-          "1": { "id": 0, "duree": 0, "hd": 0 },
-          "2": { "id": 0, "duree": 0, "hd": 0 },
-          "3": { "id": 0, "duree": 0, "hd": 0 }
-        }
-      },
-      "vehicules": [
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 }
-      ],
-      "vehicleCount": 0
-    },
-    {
-      "id": 0,
-      "avion": {
-        "id": 0,
-        "hde": 0,
-        "hfe": 0,
-        "taches": {
-          "0": { "id": 0, "duree": 0, "hd": 0 },
-          "1": { "id": 0, "duree": 0, "hd": 0 },
-          "2": { "id": 0, "duree": 0, "hd": 0 },
-          "3": { "id": 0, "duree": 0, "hd": 0 }
-        }
-      },
-      "vehicules": [
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 },
-        { "id": 0, "tachesCount": 0 }
-      ],
-      "vehicleCount": 0
-    },
-    {
-      "id": 0,
-      "avion": {
-        "id": 0,
-        "hde": 0,
-        "hfe": 0,
-        "taches": {
-          "0": { "id": 0, "duree": 0, "hd": 0 },
-          "1": { "id": 0, "duree": 0, "hd": 0 },
-          "2": { "id": 0, "duree": 0, "hd": 0 },
-          "3": { "id": 0, "duree": 0, "hd": 0 }
+          "0": { "id": 5, "duree": 5, "hd": 4, "tacheType": "DEBARQUEMENT" },
+          "1": { "id": 6, "duree": 8, "hd": 12, "tacheType": "CATERING" },
+          "2": { "id": 7, "duree": 5, "hd": 17, "tacheType": "REFUELING" },
+          "3": { "id": 8, "duree": 3, "hd": 20, "tacheType": "EMBARQUEMENT" }
         }
       },
       "vehicules": [

@@ -24,6 +24,8 @@ public class Optimizer {
         }
     }
 
-    
-
+    public float optimize(){
+        
+        return 0.0f;
+    }
 }

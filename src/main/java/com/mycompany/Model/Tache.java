@@ -18,7 +18,7 @@ public class Tache {
     private int id;
     private int duree;
     private int hd;
-    private TacheType tacheType;
+    private TacheType tacheType = TacheType.UNDEFINED;
 
     public void setTacheType(int index) throws TacheException {
         if (index == 0) this.tacheType = TacheType.DEBARQUEMENT;
