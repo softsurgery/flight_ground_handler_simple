@@ -21,10 +21,7 @@ public class Tache {
     private TacheType tacheType = TacheType.UNDEFINED;
 
     public void setTacheType(int index) throws TacheException {
-        if (index == 0) this.tacheType = TacheType.DEBARQUEMENT;
-        else if (index == 1) this.tacheType = TacheType.REFUELING;
-        else if (index == 2) this.tacheType = TacheType.CATERING;
-        else if (index == 3) this.tacheType = TacheType.EMBARQUEMENT;
+        if (index >= 0 && index <=3) this.tacheType = Vehicule.gTacheType(index);
         else throw new TacheException();
     }
 }

@@ -8,16 +8,17 @@
         "hfe": 23,
         "taches": {
           "0": { "id": 1, "duree": 5, "hd": 4, "tacheType": "DEBARQUEMENT" },
-          "1": { "id": 2, "duree": 4, "hd": 9, "tacheType": "CATERING" },
-          "2": { "id": 3, "duree": 4, "hd": 13, "tacheType": "REFUELING" },
-          "3": { "id": 4, "duree": 2, "hd": 15, "tacheType": "EMBARQUEMENT" }
+          "1": { "id": 2, "duree": 10, "hd": 9, "tacheType": "CATERING" },
+          "2": { "id": 3, "duree": 3, "hd": 19, "tacheType": "REFUELING" },
+          "3": { "id": 4, "duree": 1, "hd": 22, "tacheType": "EMBARQUEMENT" }
         }
       },
       "vehicules": [
         { "id": 1, "tachesCount": 0, "tacheType": "DEBARQUEMENT" },
         { "id": 2, "tachesCount": 0, "tacheType": "CATERING" }
       ],
-      "vehicleCount": 2
+      "vehicleCount": 2,
+      "locationUnit": 1
     },
     {
       "id": 2,
@@ -27,19 +28,20 @@
         "hfe": 25,
         "taches": {
           "0": { "id": 5, "duree": 5, "hd": 4, "tacheType": "DEBARQUEMENT" },
-          "1": { "id": 6, "duree": 8, "hd": 12, "tacheType": "CATERING" },
-          "2": { "id": 7, "duree": 5, "hd": 17, "tacheType": "REFUELING" },
-          "3": { "id": 8, "duree": 3, "hd": 20, "tacheType": "EMBARQUEMENT" }
+          "1": { "id": 6, "duree": 8, "hd": 9, "tacheType": "CATERING" },
+          "2": { "id": 7, "duree": 2, "hd": 17, "tacheType": "REFUELING" },
+          "3": { "id": 8, "duree": 6, "hd": 19, "tacheType": "EMBARQUEMENT" }
         }
       },
       "vehicules": [
-        { "id": 0, "tachesCount": 0, "tacheType": "REFUELING" },
-        { "id": 0, "tachesCount": 0, "tacheType": "EMBARQUEMENT" },
-        { "id": 0, "tachesCount": 0, "tacheType": "EMBARQUEMENT" },
-        { "id": 0, "tachesCount": 0, "tacheType": "CATERING" }
+        { "id": 3, "tachesCount": 0, "tacheType": "REFUELING" },
+        { "id": 4, "tachesCount": 0, "tacheType": "EMBARQUEMENT" },
+        { "id": 5, "tachesCount": 0, "tacheType": "EMBARQUEMENT" },
+        { "id": 6, "tachesCount": 0, "tacheType": "CATERING" }
       ],
-      "vehicleCount": 0
+      "vehicleCount": 4
     }
   ],
-  "warehouseCount": 0
+  "warehouseCount": 2,
+  "locationUnit": 2
 }

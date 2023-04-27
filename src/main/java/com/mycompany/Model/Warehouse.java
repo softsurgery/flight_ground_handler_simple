@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 import com.mycompany.Exceptions.VehiculeException;
+import com.mycompany.Model.Types.TacheType;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import lombok.Data;
@@ -22,13 +23,21 @@ public class Warehouse{
     private Avion avion = new Avion();
     private Vehicule[] vehicules = new Vehicule[max];
     private int vehicleCount = 0;
+    private int locationUnit;
 
     public Warehouse(){
         for(int i=0; i<max; i++) vehicules[i] = new Vehicule();
     }
+    
     public Vehicule search(Vehicule vehicule){
         Optional<Vehicule> result = Arrays.stream(vehicules)
             .filter(o -> o.equals(vehicule)).findFirst();
+        return result.isPresent() ? result.get() : null;
+    }
+
+    public Vehicule search(TacheType type){
+        Optional<Vehicule> result = Arrays.stream(vehicules)
+            .filter(o -> o.getTacheType()==type).findFirst();
         return result.isPresent() ? result.get() : null;
     }
 

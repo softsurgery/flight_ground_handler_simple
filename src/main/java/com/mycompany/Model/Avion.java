@@ -19,4 +19,13 @@ public class Avion{
         for(int i=0 ; i<4 ;i++) this.taches.put(i,new Tache());
     }
 
+    public int startingTask(){
+        int i = 0;
+        while(i < 4){
+            if (taches.get(i)!=null) return i;
+            else i++;
+        } 
+        return -1;
+    }
+
 }
