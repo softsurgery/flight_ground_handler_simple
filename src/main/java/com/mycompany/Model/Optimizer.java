@@ -50,7 +50,8 @@ public class Optimizer {
         return warehouses[current];
     }
 
-    public HashMap<TacheType,Vehicule> missingVehicules(Warehouse warehouse) throws WarehouseException {
+    public HashMap<TacheType,Vehicule> missingVehicules(Warehouse warehouse) 
+    throws WarehouseException {
         HashMap<Integer, Tache> taches = warehouse.getAvion().getTaches();
         HashMap<TacheType,Vehicule> needed = new HashMap<TacheType, Vehicule>();
         Aeroport clone = awo.copy();
